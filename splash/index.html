@@ -1,0 +1,75 @@
+<?php
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language ?>" lang="<?php print $language->language ?>" dir="<?php print $language->dir ?>">
+	<!--page-front.tpl.php-->
+  <head>
+    <?php print $head ?>
+    <title>OFF TEMPO {IMPRINT}</title>
+    <!--[if lt IE 7]>
+      <?php print phptemplate_get_ie_styles(); ?>
+    <![endif]-->
+    <style>
+		body {
+		background-color:#000 !important;
+		background-image:none;
+		}
+		a:link,
+		a:active,
+		a:hover {text-decoration:none;}
+		#intro-zone {
+			margin:80px auto;
+			width:50%;
+			font-family:"Times New Roman", Times, serif;
+			text-align:center;	
+			color:#FFF;
+		}
+		#intro-text {
+			font-size:26px;
+			color:#FFF;
+			padding-left:150px;
+			padding-top: 34px;
+			text-shadow:-2px 2px 2px #333;
+		}
+		#intro-subtext {
+			font-size:16px;
+			background:#000;	
+			margin: 0px auto;
+			width:278px;
+		}
+		#offtempo-imprint {
+			width:125px;
+			height:125px;
+			position:absolute;
+			background:url(/sites/all/themes/OFFTEMPOimprint/images/offtempo.png);
+		}
+		#splash {
+			width:99%;
+			background:#FFF;
+			height:300px;
+			vertical-align:central;
+			position:absolute;
+			top:35%;
+			background:url(/sites/default/files/nanunanu.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+  </head>
+  <body>
+
+<div id="splash">
+	<div id="intro-zone">
+		<a href="/"><div id="offtempo-imprint"></div></a>
+        <a href="/shop/off008"><div id="intro-text">"Birds Carried Your Song Through the Night"
+        <br /><span style="font-size:12pt;">by</span><br />Just Another Snake Cult
+        	<div id="intro-subtext"><em>AVAILABLE NOW // Ltd 100 CASSETTES</em></div>
+        </div></a>
+    </div>
+    
+</div>
+<?php print $closure ?>
+  </body>
+</html>

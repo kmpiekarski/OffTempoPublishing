@@ -1,0 +1,344 @@
+
+/**
+ * Garland, for Drupal 6.x
+ * Stefan Nagtegaal, iStyledThis [dot] nl
+ * Steven Wittens, acko [dot] net`
+ *
+ * If you use a customized color scheme, you must regenerate it after
+ * modifying this file.
+ */
+
+/**
+ * Generic elements
+ */
+ 
+ 
+body {
+	background-color:#FFF;
+	background-image:url(images/patterns/pink-repeat.png);
+}
+.clear-floats {
+	clear:both;
+}
+.artist-banner, 
+#main-container,
+#footer,
+#nav,
+#advertisement {
+	width:784px;
+}
+#offtempo-imprint {
+	width:125px;
+	height:125px;
+	background:url(images/offtempo.png);
+	position:relative;
+	margin:0px auto;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	/*position:absolute;
+	margin-left: -3px;
+	margin-top: -60px;*/
+}
+#offtempo-imprint-subtitle {
+	margin: 0px auto;
+	font-size: 12px;
+	width: 736px;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;	
+	font-style: italic;
+}
+a,
+a:link,
+a:active {
+	text-decoration:none;
+	color:#69C;
+}
+a:hover {
+	text-decoration:none !important;
+}
+#column-left a:hover
+#column-right a:hover {
+	text-decoration:underline !important;
+}
+ul {
+	padding-right: 24px;
+}	
+p {
+	font-size:15px;
+	padding: 0px 0px 0px 0px;
+}
+#content-left li {
+	font-size:15px;
+}
+blockquote {
+	background-image:url(images/patterns/tooltip-background.png);
+	background-repeat:repeat;
+	padding:0px 7px;
+}
+ul, p, blockquote {
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1, h1 a {
+	font-size:16px;
+}
+h2 {
+	padding-top:0px;
+	margin-top:0px;
+	font-size:14px;
+	border-bottom:1px solid #000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+hr {
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: #333 1px dotted;
+}
+#main-container {
+	/*border-top-left-radius:50px 50px;
+	-moz-border-radius-topleft:50px 50px;
+	*/min-height:500px;
+	margin:0px auto;
+	/*background-image:url(images/patterns/tooltip-background.png);*/
+	background-color:#fff;
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+	min-height: 100%;
+}
+#content {
+	border:none /*1px solid #CCC*/;
+}
+
+#column-left {
+	float:left;
+	width:64%;
+	/*padding-left: 16px;*/
+	padding-top: 18px;
+}
+
+#column-right {
+	min-height:90px;
+	width:32%;
+	float:right;
+	background:#000;
+	margin-top: 13px;
+	/*margin-right: 16px;*/
+	padding:5px 5px 15px 16px;
+	border-left:1px dotted #000;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	background:url(images/patterns/artist-links.png) repeat;
+}
+
+#column-right ul, 
+#column-right ul li{
+	list-style:inside;
+	margin-left:0px;
+	padding:0px;
+}
+
+#footer {
+	color:#999;
+	margin:15px auto;
+	text-align:center;
+	font-style:italic;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:60px
+}
+#nav {
+	margin:10px auto 0px auto;
+	display:table;
+	padding:0px;
+	height:23px
+}
+#nav ul {
+	text-align:center;
+	margin: 0px;
+	padding:0px;
+	width:784px;
+	height: 27px;
+	display:inline;
+	/*padding-top: 3px;*/
+} 
+#nav ul li {
+	background:#FFF;
+	display:inline;
+/*	float:left;*/
+	text-align:center;
+	list-style:none;
+	padding: 5px 1px;
+	text-transform:uppercase;
+	font-family:arial, Geneva, sans-serif;
+	letter-spacing:1px;
+}
+#nav ul li a {
+	color:#000;
+	border:1px solid #69C;
+	padding:3px 13px;
+	text-shadow:-2px 1px 1px #CCC;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
+}
+#nav ul li a:hover,
+#nav ul li a.active {
+	text-decoration:none;
+	background:#000;
+	color:#FFF;
+	text-shadow:none;
+}
+/*====================== Shop =====================*/
+.artist-release {
+	width: 175px;
+	height: 175px;
+	margin: 5px auto;
+}
+.artist-release-title {
+	font-size: 14px;
+	display: block;
+	color: white;
+	padding: 2px 5px;
+	position:absolute;
+}
+.release-format {
+	color:#F00;
+	border:1px dotted #F00;
+	padding:3px;
+}
+.shipping {
+	font-size:10px;
+	color:#999;
+	line-height:10px;
+}
+/*====================NEWS PAGES====================*/
+
+.news-title {
+	font-size:2em;
+	font-weight:bold;
+	color:#333;	
+	border-bottom: 1px solid black;
+}
+.news-title-side {
+	font-size:14px;
+	line-height: 12px;
+}
+.news-publish-date {
+	font-size:10px;	
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-style:italic;
+}
+/*===================LIVE PAGE=====================*/
+.live-title, 
+.live-title a {
+	 text-align:center;
+	 font-size: 30px;
+	 margin-top:16px;
+	 margin-bottom:16px;
+	font-style: italic;
+	color:#333;
+	font-family:"Times New Roman", Times, serif;
+ }
+ 
+/*===================ARTIST PAGE=====================*/
+
+
+.artist-banner {
+	height:330px;
+}
+a:hover div .artist-names:hover {text-decoration:none !important;}
+.artist-names {
+	font-size: 44px;
+	color: white;
+	text-shadow: 1px 1px 0px black;
+	background: url(images/patterns/artist-links.png) repeat;
+	min-width: 100px;
+	font-style: italic;
+	bottom: -150px;
+	position: relative;
+	text-align: center;
+	font-family:"Times New Roman", Times, serif;
+}
+.artist-photo {
+	position:absolute;	
+}
+.photo-credit {
+	position:absolute;
+	background:#000;
+	color:#FFF;
+	padding: 0px;
+	margin-top: 87px;
+	line-height: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+}
+
+#store-footer {
+	width: 0px !important;
+	text-align: center !important;
+	font-size: 0px !important;
+	clear: both !important;
+	display: none !important;
+	visibility: hidden !important;
+}
+
+
+.news-title,
+.home-blog-title,
+.artist-h {
+	font-size: 24px;
+	/*font-style: italic;*/
+	width: 98%;
+	border-bottom: 1px dotted #69C;
+	color:#333;
+	margin-bottom: 5px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/*===================ADMIN=====================*/
+.messages.status {
+	border:#3C6 1px solid;
+	background:#9F9;
+	padding:0px 10px;
+}
+
+
+
+/*===================UBERCART=====================*/
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="file"]::-webkit-file-upload-button:hover,
+button:hover {
+	background:#69C;
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
+	
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+	clear: both;
+	background-color: #AAA;
+	border: 0 none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 5px 10px 0;
+	padding: 0px 8px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	text-transform: uppercase;
+}
