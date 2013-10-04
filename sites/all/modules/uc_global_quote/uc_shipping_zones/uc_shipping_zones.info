@@ -1,0 +1,12 @@
+name = Shipping Zones
+description = Defines zones for shippement purposes
+dependencies[] = uc_quote
+dependencies[] = ahah_helper
+package = Ubercart - fulfillment
+core = 6.x
+; Information added by drupal.org packaging script on 2011-10-06
+version = "6.x-1.0-rc1"
+core = "6.x"
+project = "uc_global_quote"
+datestamp = "1317944810"
+
